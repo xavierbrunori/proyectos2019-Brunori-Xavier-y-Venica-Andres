@@ -1,0 +1,17 @@
+body {
+
+     color:white;
+    background-image: url(fondo.jpg);
+ }
+h1{
+    font-size: 10px;
+}
+
+div {
+    width: 80%;
+    height: 50%;
+    background: black;
+    margin: 80px 20px;
+    padding: 80px;
+    border: 10px solid #99CCFF;
+}

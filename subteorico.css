@@ -1,0 +1,36 @@
+
+
+
+
+
+body {
+    color: white;
+    background-image:url(fondo4.jpg);background-position:left top;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+
+
+h2 {
+    font-style:italic;
+    font-weight:bold;
+    font-size: 40px;
+    font-family:cursive,"Palatino" ;
+}
+
+
+p{
+    font-family: cursive,"Palatino" ;
+    font-style:italic;
+    font-weight:bold;
+    font-size: 20px;
+
+}
+
+h3{
+    font-style:italic;
+    font-weight:bold;
+    font-size: 33px;
+    font-family:cursive,"Palatino" ;
+
+}
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<body>
+<header>
+	<center>
+		<img src="num.png">
+	</center>
+</header>
+<br>
+<br>
+<p>
+	1) Escriban las siguientes situaciones en lenguaje numerico y luego resuelvanlas:
+
+	a) Un contador ha anotado en el dia de la fecha estas operaciones:
+
+	- primero, recibio depositos de Juan (por $ 1900), de Pedro ($ 2400), de Jose ($ 400) y de Jazmin (pesos 2000);
+
+	- segundo, tuvo que pagar los montos de pesos 1000 y pesos 300;
+
+	- por ultimo, recibio de Rosa pesos 2000.
+</p>
+<br>
+<p>
+
+	¿Que monto recaudo el contador? ¿Cuanto tuvo que abonar? ¿Cual es el saldo a favor?
+
+	b) Luis se compro una bicicleta por pesos 318 y la pago en tres cuotas mensuales de igual valor. Por pagar en cuotas le recargaron pesos 21 al valor original. ¿Cuanto pago en cada cuota?
+
+	c) En un colegio hay 3 cursos de 7 grado: cada curso empezo el anio con una caja de tizas azules y una caja de tizas blancas; cada caja contenía 90 tizas. En cada curso, se usan 2 tizas blancas y 1 azul por día. El martes de la tercera semana de clases, al finalizar el día, la preceptora contó las tizas que quedaban en cada una de las cajas. ¿Cuántas tizas de cada color había en cada caja? Las tizas que quedaban, ¿para cuántos días más alcanzarán?
+
+	2) Analicen y respondan las siguientes preguntas planteando diferentes ejemplos:
+
+	a) Si sumamos o multiplicamos dos números naturales, ¿el resultado es siempre otro número natural?
+
+	b) Y si dividimos o restamos dos números naturales, ¿cómo será el resultado?
+</p>
+<br>
+<p>
+
+	3) Investiguen las distintas propiedades que se pueden cumplir con los números naturales. Para esto recurran a los siguientes links:
+
+	Suma
+
+	¿Qué son los números naturales?
+</p>
+<br>
+<p>
+
+	4) En el procesador de textos de sus equipos portátiles, hagan una lista con las propiedades investigadas, acompañadas de un ejemplo. Comparen su lista con las de sus compañeros.
+</p>
+<br>
+
+<h3> Actividad 2 </h3>
+
+<p>
+	1) Resuelvan las siguientes operaciones combinadas de dos maneras distintas aplicando las propiedades correspondientes (verifiquen que el resultado sea siempre el mismo).
+
+	a) 453 + 171 - 281 - 12 - 1 + 123 =
+
+	b) (509 + 162) + (376 - 273) - 251 =
+
+	c) 253 - (12 + 25 + 29) + 12 =
+
+	d) (10 +2 + 4) 3 + 2 =
+
+	e) (100 : 10 + 8 9) : 2 + (9 + 1) 2 =
+
+	f) (120 + 14 - 18 : 9) 2 + (8 - 4 : 2) : 3 =
+
+	g) 4 (3 - 2) + 5 (6 3 - 10) =
+
+	2) Utilicen la calculadora científica, instalada en sus equipos portátiles, para comprobar si los resultados obtenidos en las operaciones anteriores son correctos.
+</p>
+
+<h3>Actividad de cierre</h3>
+
+	<p>
+
+	1) Sabiendo que el cociente de una división es de 295, el divisor 324 y el resto 265, ¿cuál es el número del dividendo?
+
+	2) Completen el espacio en blanco para que la igualdad sea verdadera.
+
+	A) (4 +          ) 5 = 20 + 15
+
+	B) (           -  100) : 2 + 2 (75 -         ) = 100 - 50 + 150 - 66
+
+	3) Utilizando el procesador de textos de sus equipos portátiles, inventen y redacten una situación de la vida cotidiana en la que intervengan las siguientes operaciones entre números naturales.
+
+	A) 12500 - (112 + (1056 - 1230)) =
+
+	B) (3254 : 2 - 100) + 201 - 74 =
+
+	C) 2 . (18041 - 1002) - 960 : 3 + 116 =
+</p>
+
+
+
+
+</body>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="subteorico.css" />
+	<title>practico</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<div class="calculadora">
+	<div class="pantalla">
+		<div id="resultado"></div>
+	</div>
+	<div class="teclas">
+		<div class="numeros">
+			<div>
+		        <button id="n1">1</button>
+		        <button id="n2">2</button>
+		        <button id="n3">3</button>
+	    	</div>
+			<div>
+		        <button id="n4">4</button>
+		        <button id="n5">5</button>
+		        <button id="n6">6</button>
+		    </div>
+		    <div>
+		        <button id="n7">7</button>
+		        <button id="n8">8</button>
+		        <button id="n9">9</button>
+		    </div>
+		    <div>
+		        <button id="n0">0</button>
+				<input type="reset" value="c">
+		    </div>
+	    </div>
+		<div class="op">
+		    <button id="s">+</button>
+		    <button id="r">-</button>
+		    <button id="d">÷</button>
+		    <button id="m">x</button>
+	    </div>
+	</div>
+	<div class="sr">
+		<button id="sr">=</button>
+	</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+<div class="GRAFICO">
+
+
+	<div class="INSTRUCCIONES">
+
+		<aside>
+			<ul>
+
+				<h2> ¡Grafico!</h2>
+
+				<button  class="boton" type="button" onclick="dibujarCuad()" >Grilla</button>
+
+
+
+				<button  class="boton" type="button" onclick="borrar()" >OFF</button>
+
+
+
+			</ul>
+		</aside>
+
+	</div>
+
+	<div id="GRAFICANDO">
+
+		<section >
+			<canvas width="800" height="400" id="canvas" > </canvas> /
+			<h3>¡SUERTE!</h3>
+
+</script>
+</html>
